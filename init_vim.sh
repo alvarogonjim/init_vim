@@ -35,9 +35,13 @@ cat << "HELLO_TEXT"
      \__\/         \__\/         \__\/         \__\/         \__\/
 HELLO_TEXT
 echo "${NORMAL}"
-
-  apt-get install vim
-
+  print "${YELLOW}\n" "Installing node and npm first"
+  curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+  sudo apt install nodejs
+  sudo add-apt-repository ppa:jonathonf/vim
+  sudo apt update
+  print "${YELLOW}\n" "Installing last version of vim 
+  sudo apt install vim
   if [ ! -n "$VIM" ]; then
     VIM=~/.vim
   fi
