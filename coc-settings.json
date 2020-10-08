@@ -1,0 +1,6 @@
+{   "suggest.timeout":  5000,
+   "diagnostic.checkCurrentLine": true,
+   "python.formatting.provider": "black",
+   "coc.preferences.formatOnSaveFiletypes": ["python"]
+}   
+
