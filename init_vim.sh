@@ -40,7 +40,7 @@ echo "${NORMAL}"
   sudo apt install nodejs
   sudo add-apt-repository ppa:jonathonf/vim
   sudo apt update
-  print "${YELLOW}\n" "Installing last version of vim 
+  print "${YELLOW}\n" "Installing last version of vim"
   sudo apt install vim
   if [ ! -n "$VIM" ]; then
     VIM=~/.vim
