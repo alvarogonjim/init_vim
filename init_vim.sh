@@ -87,7 +87,7 @@ echo "${NORMAL}"
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   fi
 
-  printf "${GREEN}%s${NORMAL}\n" "Vimrc has been configured ;)"
+  printf "${GREEN}%s${NORMAL}\n" "Vimrc has been configured"
   printf "${YELLOW}%s${NORMAL}\n" "Do not worry about error messages. When it occurs just press enter and wait till all plugins are installed."
   printf "${BLUE}%s${NORMAL}\n" "Keep calm and use VIM!"
 }
